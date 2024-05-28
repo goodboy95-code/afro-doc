@@ -1,0 +1,19 @@
+# 忽略 node_modules 文件夹
+node_modules/
+
+# 忽略生成的静态文件
+dist/
+
+# 忽略临时文件
+.temp/
+
+# 忽略特定文件
+secret.txt
+
+# 忽略特定文件类型
+*.log
+
+# webstorm配置
+.idea
+
+docs/.vitepress/cache/
