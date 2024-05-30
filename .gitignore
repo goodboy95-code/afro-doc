@@ -1,9 +1,6 @@
 # 忽略 node_modules 文件夹
 node_modules/
 
-# 忽略生成的静态文件
-dist/
-
 # 忽略临时文件
 .temp/
 
@@ -16,4 +13,4 @@ secret.txt
 # webstorm配置
 .idea
 
-docs/.vitepress/cache/
+doc/.vitepress/cache/
