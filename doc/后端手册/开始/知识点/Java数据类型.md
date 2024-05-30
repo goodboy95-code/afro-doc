@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# java数据类型
+# Java数据类型
 
 ## ArrayList（数据结构 数组）
 

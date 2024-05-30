@@ -4,6 +4,7 @@ export default defineConfig({
   title: "首页",
   titleTemplate: "Afro后台系统",
   description: "后台系统中文文档",
+  base: "/",
   markdown: {
     lineNumbers: true,
   },
@@ -69,7 +70,7 @@ export default defineConfig({
                 text: '知识点',
                 items: [
                   {text: '数据结构', link: '/后端手册/开始/知识点/数据结构'},
-                  {text: 'java数据类型', link: '/后端手册/开始/知识点/java数据类型'},
+                  {text: 'Java数据类型', link: '/后端手册/开始/知识点/Java数据类型'},
                   {text: 'redis数据类型', link: '/后端手册/开始/知识点/redis数据类型'},
                   {text: 'redis知识点', link: '/后端手册/开始/知识点/redis知识点'},
                   {text: 'mysql知识点', link: '/后端手册/开始/知识点/mysql知识点'},
