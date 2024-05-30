@@ -4,7 +4,7 @@ export default defineConfig({
   title: "首页",
   titleTemplate: "Afro后台系统",
   description: "后台系统中文文档",
-  base: "/",
+  base: "/afro-doc",
   markdown: {
     lineNumbers: true,
   },
