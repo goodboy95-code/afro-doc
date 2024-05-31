@@ -8,13 +8,22 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /项目部署/项目部署
     - theme: brand
       text: 在线预览
       link: /api-examples
     - theme: brand
-      text: gitee查看
+      text: gitee前端源码
       link: /api-examples
+    - theme: brand
+      text: gitee后端源码
+      link: /api-examples
+    - theme: brand
+      text: github前端源码
+      link: https://bgithub.xyz/goodboy95-code/afro-doc.git
+    - theme: brand
+      text: github后端源码
+      link: https://bgithub.xyz/goodboy95-code/afro-doc.git
 
 features:
   - title: 技术栈
