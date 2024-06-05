@@ -21,6 +21,10 @@ export default defineConfig({
         link: '/项目部署/项目部署'
       },
       {
+        text:'资源下载',
+        link: '/项目部署/资源下载'
+      },
+      {
         text: '前端手册',
         items: [
           {text: '项目介绍', link: '/前端手册/项目介绍'},

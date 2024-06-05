@@ -11,7 +11,7 @@ hero:
       link: /项目部署/项目部署
     - theme: brand
       text: 在线预览
-      link: /api-examples
+      link: http://110.40.221.202
     - theme: brand
       text: gitee前端源码
       link: /api-examples
@@ -20,15 +20,15 @@ hero:
       link: /api-examples
     - theme: brand
       text: github前端源码
-      link: https://bgithub.xyz/goodboy95-code/afro-doc.git
+      link: https://bgithub.xyz/goodboy95-code/afro-vue3.git
     - theme: brand
       text: github后端源码
-      link: https://bgithub.xyz/goodboy95-code/afro-doc.git
+      link: https://bgithub.xyz/goodboy95-code/afro-serve.git
 
 features:
   - title: 技术栈
     details: 前端：vite+ts+vue3; 后端：springboot3+mysql8
   - title: 简介
-    details: 通用后台系统模版
+    details: 通用响应式后台系统模版
 ---
 
