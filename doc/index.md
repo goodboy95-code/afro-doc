@@ -14,10 +14,10 @@ hero:
       link: http://110.40.221.202
     - theme: brand
       text: gitee前端源码
-      link: /api-examples
+      link: https://gitee.com/xueyewei/afro-vue3.git
     - theme: brand
       text: gitee后端源码
-      link: /api-examples
+      link: https://gitee.com/xueyewei/afro-serve.git
     - theme: brand
       text: github前端源码
       link: https://bgithub.xyz/goodboy95-code/afro-vue3.git
