@@ -36,6 +36,7 @@ export default defineConfig({
                 text: '正文',
                 items: [
                   {text: '主题功能', link: '/前端手册/开始/正文/主题功能'},
+                  {text: '响应式', link: '/前端手册/开始/正文/响应式'},
                 ]
               },
               {
