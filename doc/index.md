@@ -11,7 +11,7 @@ hero:
       link: /项目部署/项目部署
     - theme: brand
       text: 在线预览
-      link: http://110.40.221.202
+      link: http://www.afro.ink/
     - theme: brand
       text: gitee前端源码
       link: https://gitee.com/xueyewei/afro-vue3.git
