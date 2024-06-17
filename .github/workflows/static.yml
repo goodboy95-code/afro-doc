@@ -45,6 +45,11 @@ jobs:
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: doc/.vitepress/dist
+
       - name: 发布到腾讯云
         uses: easingthemes/ssh-deploy@main
         env:
@@ -60,11 +65,6 @@ jobs:
           REMOTE_USER: 'root'
           # 目标地址
           TARGET: '/project/doc'
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: doc/.vitepress/dist
 
   # 部署工作
   deploy:
