@@ -53,7 +53,7 @@ jobs:
           # SCP参数
           ARGS: '-avzr --delete'
           # 源目录
-          SOURCE: '/doc/.vitepress/dist/'
+          SOURCE: 'doc/.vitepress/dist/'
           # 服务器ip
           REMOTE_HOST: ${{ secrets.REMOTE_TXHOST }}
           # 用户
